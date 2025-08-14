@@ -40,6 +40,7 @@ export const NewContact = () => {
                 <input placeholder="Phone" onChange={(e) => setPhone(e.target.value)} value={phone} />
                 <input placeholder="Email" onChange={(e) => setEmail(e.target.value)} value={email} />
                 <input placeholder="Address" onChange={(e) => setAddress(e.target.value)} value={address} />
+                </div>
                 <button type="submit">Add Contact</button>
             </form>
         </div>
